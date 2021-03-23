@@ -497,17 +497,34 @@ footer {
   width: 300px;
 }
 .project-info {
+  text-align: left;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   margin-left: 300px;
   padding: 15px;
 }
+.project-info ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.project-info li {
+  list-style: none;
+  color: #74808a;
+}
 .project-info h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #374054;
   margin: 0 0 15px 0;
+}
+.project-info h3 li {
+  display: inline-block;
+  font-size: 0.9em;
+}
+.project-info h3 li a {
+  color: #74808a;
 }
 .project-info p {
   color: #74808a;
