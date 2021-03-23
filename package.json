@@ -1,5 +1,5 @@
 {
-  "name": "devportfolio",
+  "name": "marshall-strong.github.io",
   "version": "1.2.2",
   "description": "",
   "main": "js/scripts.js",
@@ -15,7 +15,7 @@
     "dev",
     "Marshall Strong"
   ],
-  "author": "Ryan Fitzgerald",
+  "author": "Marshall Strong",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
