@@ -554,7 +554,6 @@ footer {
 .vtimeline-point {
   position: relative;
   display: block;
-  vertical-align: top;
   margin-bottom: 30px;
 }
 
@@ -576,23 +575,22 @@ footer {
   }
 }
 
-.vtimeline-location,
-.vtimeline-date {
+.vtimeline-date,
+.vtimeline-location {
   width: 260px;
   text-align: right;
   position: absolute;
   left: 0;
-  // top: 10px;
   font-weight: 300;
   color: #374054;
 }
 
-.vtimeline-location {
-  top: 35px;
-}
-
 .vtimeline-date {
   top: 10px;
+}
+
+.vtimeline-location {
+  top: 35px;
 }
 
 /*
@@ -909,14 +907,17 @@ footer {
     }
   }
 
-  .vtimeline-date,
-  .vtimeline-location {
+  .vtimeline-date {
     width: auto;
     text-align: left;
     position: relative;
     margin-bottom: 15px;
     display: block;
     margin-left: 70px;
+  }
+
+  .vtimeline-location {
+    display: none;
   }
 
   .vtimeline-icon {
