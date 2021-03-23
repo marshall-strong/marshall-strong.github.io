@@ -458,19 +458,22 @@ footer {
   }
 }
 
-// #about {
-//   padding: 75px 15px;
-//   border-bottom: 1px solid $border;
+.about {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+}
 
-//   h2 {
-//     color: $heading;
-//   }
-
-//   p {
-//     color: $text;
-//     margin: 0;
-//   }
-// }
+.headshot {
+  float: left;
+  img {
+    height: 300px;
+    width: 300px;
+  }
+}
 
 /*
     --------------------------------
