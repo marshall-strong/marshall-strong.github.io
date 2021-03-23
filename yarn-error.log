@@ -1,0 +1,64 @@
+Arguments: 
+  /home/marstrong/.nvm/versions/node/v15.2.0/bin/node /usr/share/yarn/bin/yarn.js add --dev sass
+
+PATH: 
+  /home/marstrong/bin:/home/marstrong/.rbenv/shims:/home/marstrong/.rbenv/shims:/home/marstrong/.rbenv/bin:/home/marstrong/.nvm/versions/node/v15.2.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/marstrong/scoop/apps/nodejs/current/bin:/mnt/c/Users/marstrong/scoop/apps/nodejs/current:/mnt/c/Users/marstrong/scoop/apps/yarn/current/global/node_modules/.bin:/mnt/c/Users/marstrong/scoop/apps/yarn/current/Yarn/bin:/mnt/c/Users/marstrong/scoop/shims:/mnt/c/Users/marstrong/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/marstrong/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Inkscape/bin:/snap/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  15.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/marstrong/devportfolio/package.json: Unexpected token / in JSON at position 600
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "devportfolio",
+    "version": "1.2.2",
+    "description": "",
+    "main": "js/scripts.js",
+    "scripts": {
+      "watch": "gulp watch"
+    },
+    "keywords": [
+      "portfolio",
+      "personal",
+      "website",
+      "tech",
+      "coding",
+      "dev"
+    ],
+    "author": "Ryan Fitzgerald",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "@babel/preset-env": "^7.9.0",
+      "eslint": "^7.22.0",
+      "eslint-config-prettier": "^8.1.0",
+      "gulp": "^4.0.2",
+      "gulp-autoprefixer": "^7.0.1",
+      "gulp-babel": "^8.0.0",
+      "gulp-plumber": "^1.2.1",
+      "gulp-rename": "^2.0.0",
+      // "gulp-sass": "^4.0.2",
+      "gulp-uglify": "^3.0.2",
+      "gulp-wait": "0.0.2",
+      "prettier": "2.2.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
