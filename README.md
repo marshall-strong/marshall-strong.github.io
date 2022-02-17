@@ -15,3 +15,18 @@ The `marshallstrong.com` custom domain name is managed through [dnsimple](https:
 A custom favicon for the site was created using [favicon.io](https://favicon.io/emoji-favicons/collision/).  
 [Documentation on Favicons](https://bitsofco.de/all-about-favicons-and-touch-icons/)  
 [Documentation on Web Manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest)  
+
+## Running the Site in Development
+
+- Clone or download the repository
+- Run `npm i` to install Gulp dev dependencies
+- Run Gulp to compile the Sass and minify the JavaScript
+  - To run Gulp, run the npm script `npm run watch`
+  - Alternatively, if the Gulp command line utility is installed, just run `gulp watch`
+- All styles are in `scss/styles.scss`, and get compiled to `css/styles.css` by gulp
+  - The site loads the CSS, but any changes should be made to the SCSS
+- All scripts are in `js/scripts.js`, and get minified to `js/scripts.min.js` by gulp
+  - Any changes should be made to `js/scripts.js`; the minified script is what gets loaded by the site
+- To view the site, open `index.html` in a web browser
+- Any changes made to the SCSS or JavaScript will be compiled/minified immediately, but the page must be refreshed before the changes will be visible on the site
+- The same goes for any changes made to `index.html` -- the page must be reloaded before the changes will be visible
