@@ -11,3 +11,5 @@ The `marshallstrong.com` custom domain name is managed through [dnsimple](https:
 - apex domain: `marshallstrong.com`  
 - www subdomain: `www.marshallstrong.com`  
 - custom subdomain: `custom.marshallstrong.com`  
+
+A custom favicon for the site was created using [favicon.io](https://favicon.io/emoji-favicons/collision/).  
