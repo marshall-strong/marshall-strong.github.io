@@ -13,3 +13,5 @@ The `marshallstrong.com` custom domain name is managed through [dnsimple](https:
 - custom subdomain: `custom.marshallstrong.com`  
 
 A custom favicon for the site was created using [favicon.io](https://favicon.io/emoji-favicons/collision/).  
+[Documentation on Favicons](https://bitsofco.de/all-about-favicons-and-touch-icons/)  
+[Documentation on Web Manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest)  
