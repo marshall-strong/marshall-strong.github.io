@@ -19,6 +19,9 @@ A custom favicon for the site was created using [favicon.io](https://favicon.io/
 
 ## Running the Site in Development
 
+- Install Gulp
+  - `npm install --global gulp-cli`
+
 - Clone or download the repository
 - Run `npm i` to install Gulp dev dependencies
 - Run Gulp to compile the Sass and minify the JavaScript
